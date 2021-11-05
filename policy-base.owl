@@ -146,11 +146,14 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+    </owl:Class>
+    
+    <owl:Class rdf:about="http://gaius.isri.cmu.edu/2011/8/policy-base.owl#Conflict"">
 	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Action_Con">
                     <rdf:Description rdf:about="http://gaius.isri.cmu.edu/2011/8/policy-base.owl#Control"/>
-                    <rdf:Description rdf:about="http://gaius.isri.cmu.edu/2011/8/policy-base.owl#Montrol"/>
+                    <rdf:Description rdf:about="http://gaius.isri.cmu.edu/2011/8/policy-base.owl#Monitor"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
